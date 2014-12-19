@@ -1,0 +1,65 @@
+/*navbar*/
+.navbar /*this selects the div outside of the entre navbar*/{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+#navBar/*this selects the ul that houses the navbar*/{
+    list-style: none;
+    display: inline;
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 50px;
+    top: 0px;
+    position: absolute;
+}
+.toggle-photography{
+    list-style: none;
+}
+.socialnav{
+    list-style: none;
+}
+
+
+
+
+
+/*social media buttons*/
+.socialnav{
+   
+}
+.robertsFB{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.robertsLI{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.robertsIG{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px; 
+}
+.robertsTwitter{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
