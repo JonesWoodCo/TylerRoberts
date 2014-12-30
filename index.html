@@ -2,9 +2,10 @@
 
 <html lang="en">
 <head>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300italic,700,300' rel='stylesheet' type='text/css'>
     <script type='text/javascript' src='jquery.js'></script>
     <script type='text/javascript' src='jquery-ui.js'></script>
-    <script src="app.js"></script><!--jquery for animations-->
+    <script src="#"></script><!--jquery for animations-->
     <link href="main.css" rel="stylesheet" type="text/css"/>
     <link rel="icon"
             type="image/png"
@@ -12,25 +13,97 @@
     <title>Tyler Roberts Photography</title>
 </head>
 <body>
-    <div class "navBar">
-        <ul id="navBar">
-            <li class="navHome"><a href="index.html">Home</a></li>
-            <li class="navAbout"><a href="about.html">About</a></li>
-            <li class="navPhotography"><a href="#">Photography</a></li>
-                <ul class="toggle-photography">
-                    <li><a href="#">Portaiture</a></li>
+    
+    
+    
+    <!--navbar-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+	<ul id="menu">
+            <li class="parent"><a href="#">Home</a></li>
+            <li class="parent"><a href="#">About</a></li>
+            <li class="parent"><a href="#">Photography</a>
+                <ul class="child1">			
+                    <li><a href="#">Portraiture</a></li>
                     <li><a href="#">Automotive</a></li>
                     <li><a href="#">Sporting Events</a></li>
+                    <li><a href="#">Wedding</a></li>
                     <li><a href="#">Night Life</a></li>
                 </ul>
-            <li class="socialMedia"><a href="#">Social Media</a></li>
-            <ul class="socialnav">
-                <li><a href="#"><img class="robertsFB" src="robertsFB.jpg"></a></li>
-                <li><a href="#"><img class="robertsIG" src="robertsIG.jpg"></a></li>
-                <li><a href="#"><img class="robertsLI" src="robertsLI.jpg"></a></li>
-                <li><a href="#"><img class="robertsTwitter" src="robertsTwitter.jpg"></a></li>
-            </ul>
+                    <li class="parent"><a href="#">News</a></li>
+                    <li class="parent"><a href="#">Contact</a>
+                </ul>
+            </li>
         </ul>
     </div>
+    
+    
+    
+    
+    
+    <!--slider-->
+    <div class="slider">
+        <div class="slide active-slide">
+            <div class="container">
+                <div class="row">
+                    <div class="slide-copy col-xs-5 slide-1">
+                        1
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="container">
+                <div class="row">
+                    <div class="slide-copy col-xs-5 slide-2">
+                        2
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="slide-copy col-xs-5 slide-3">
+                            3
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="slide-copy col-xs-5 slide-4">
+                            4
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+            <!--instead of dots, create circle images that can be controlled by JS to correspond with a photo in slide show. dots to be absolutely positioned on top of slider-->
+            <div style="height: 25px; width: 60px; position: absolute; left: 881px; bottom: 0px; color: #000000;" class="slider-nav">
+                <a href="#" class="arrow-prev"><img src="arrow-prev.png"></a>
+                <ul class="slider-dots">
+                    <li class="dot active-dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                    <li class="dot"></li>
+                </ul>
+                <a href="#" class="arrow-next"><img src="arrow-next.png"></a>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+<div class="copyright" style="text-align: center; margin-top: 25px; ">Copyright Tyler Roberts Photography, 2014. Website by <a href="#">Mandrake</a>.</div>
 </body>
 </html>
