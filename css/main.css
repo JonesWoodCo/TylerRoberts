@@ -85,14 +85,14 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0px;
-    min-width:10em;
+    
     }
 ul ul ul{
     left: 100%;
     top: 0;
     margin-left:1px;
     }
-li:hover {
+child1:hover {
     background-color: #1f1f1f;
     }
 .parent li:hover {
@@ -226,8 +226,9 @@ li:hover {
                                            slide 4
     ------------------------------------------------------------------------------------------*/
 .slide-4{
-    background-image: url('bike.jpg');
+    background-image: url('dodge.jpg');
     background-size: cover;
+    background-position: bottom;
     top: 0;
     left: 0;
     width: 100%;
@@ -254,51 +255,54 @@ li:hover {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////             slider  nav                 /////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
-.slider-nav {
-    position: absolute;
-    height: 25px;
-    text-align: center;
-    margin-top: 0px;
-    background-color: transparent;
 
+.snHouse{
+    position: absolute;
+    z-index: 1031;
+    width: 100%;
+    background-color: #1f1f1f;
+    height: 50px;
+    top: 845px;
+}
+.slider-nav {
+    text-align: center;
+   
+    clear: both;
+    
+    height: 40px;
 }
 
 .arrow-prev {
+    margin-right: 25px;
     display: inline-block;
-    margin-right: 0px;
-    height: 23px;
-    float: left;
-
+    vertical-align: top;
+    margin-top: 9px;
 }
 
 .arrow-next {
+    margin-left: 25px;
     display: inline-block;
-    margin-left: 10px;
-    height: 23px;
-    float: right;
+    vertical-align: top;
+    margin-top: 9px;
 }
 
 .slider-dots {
-   
-    float: right;
-    vertical-align: middle;
     list-style: none;
-    display: inline;
-    padding-left: 0px;
-    margin: 0px;
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 10px;
 }
+
 .slider-dots li {
-  color: #ffffff;
-  display: inline;
-  font-size: 30px;
-  padding-right: 5px;
-  bottom: 3px;
+    color: #bbbcbc;
+    display: inline;
+    font-size: 30px;
+    margin-right: 5px;
 }
 
 .slider-dots li.active-dot {
-  color: #363636;
+    color: #000000;
 }
-
 
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
