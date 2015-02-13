@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+    color: #000000;
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+
+/*navbar*/
+.navbar /*this selects the div outside of the entre navbar*/{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    margin: 0px;
+    border: 0px;
+    padding-left: 25px;
+    position: absolute;
+    top: 70px;
+    background-color: #444444;
+    text-align: center;
+    z-index: 1030;
+}
+.parent {
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 30px;
+    background-color: #444444;
+    }
+.parent a{
+    margin: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+.parent:hover > ul {
+    display:block;
+    position:absolute;
+    }
+.child1 {
+    display: none;
+    }
+.child1 li {
+    background-color: #1f1f1f;
+    line-height: 30px;
+    width: 100%;
+    }
+.child1 li a{
+    color: #ffffff;
+    
+    }
+    .child2 {
+    display: none;
+    }
+.child2 li {
+    background-color: #1f1f1f;
+    line-height: 30px;
+    width:60px;
+    }
+.child2 li a{
+    color: #ffffff;
+    }
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    min-width:10em;
+    }
+ul ul ul{
+    left: 100%;
+    top: 0;
+    margin-left:1px;
+    }
+li:hover {
+    background-color: #1f1f1f;
+    }
+.parent li:hover {
+    background-color: #c92d06;
+    }
+.expand{
+    font-size:12px;
+    float:right;
+    margin-right:5px;
+    }
+
+
+
+
+
+
+
+
+
+/*social media buttons*/
+.robertsFB{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.robertsLI{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.robertsIG{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px; 
+}
+.robertsTwitter{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+/*slider*/
+.slider {
+  /*position: relative;*/
+  width: 100%;
+  height: 700px;
+  margin-top: 75px;
+}
+
+.slide {
+  background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  clear: both;
+}
+.container{
+    height: 700px;
+}
+.row{
+    height: 700px;
+}
+.active-slide {
+    display: block;
+}
+
+.slide-1{
+    background-image: url('testBackground3.jpg');
+    background-size: cover;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    padding: 0px;
+
+}
+.slide-2{
+    background-image: url('testBackground3.jpg');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 0px;
+}
+.slide-3{
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 10px;
+}
+.slide-4{
+    background-image: url('#');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    margin-left: 231px;
+    margin-right: 231px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/*slider nav*/
+.slider-nav {
+    position: absolute;
+    height: 25px;
+    text-align: center;
+    margin-top: 0px;
+    background-color: transparent;
+
+}
+
+.arrow-prev {
+    display: inline-block;
+    margin-right: 0px;
+    height: 23px;
+    float: left;
+
+}
+
+.arrow-next {
+    display: inline-block;
+    margin-left: 10px;
+    height: 23px;
+    float: right;
+}
+
+.slider-dots {
+   
+    float: right;
+    vertical-align: middle;
+    list-style: none;
+    display: inline;
+    padding-left: 0px;
+    margin: 0px;
+}
+.slider-dots li {
+  color: #ffffff;
+  display: inline;
+  font-size: 30px;
+  padding-right: 5px;
+  bottom: 3px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
