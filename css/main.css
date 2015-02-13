@@ -9,7 +9,14 @@ body{
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
 
+a:hover{
+    color: #e6e6e6;
+}
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////            masthead                  /////////////////////////////////////////////////////////
@@ -261,36 +268,31 @@ child1:hover {
     z-index: 1031;
     width: 100%;
     background-color: #1f1f1f;
-    height: 50px;
     top: 845px;
 }
+
 .slider-nav {
-    text-align: center;
-   
+    /*text-align: center;*/
     clear: both;
-    
-    height: 40px;
+    padding: 0px;
 }
 
 .arrow-prev {
     margin-right: 25px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 9px;
 }
 
 .arrow-next {
     margin-left: 25px;
     display: inline-block;
     vertical-align: top;
-    margin-top: 9px;
 }
 
 .slider-dots {
     list-style: none;
     display: inline-block;
     padding-left: 0;
-    margin-bottom: 10px;
 }
 
 .slider-dots li {
