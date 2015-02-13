@@ -263,30 +263,35 @@ child1:hover {
 ///////////////////////////////////////////////////////             slider  nav                 /////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/ 
 
-.snHouse{
+/*.snHouse{
     position: absolute;
     z-index: 1031;
     width: 100%;
     background-color: #1f1f1f;
     top: 845px;
-}
+}*/
 
 .slider-nav {
     /*text-align: center;*/
+    position: absolute;
+    z-index: 9999;
     clear: both;
     padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.arrow-prev {
+.prev-photo {
     margin-right: 25px;
     display: inline-block;
     vertical-align: top;
 }
 
-.arrow-next {
+.next-photo {
     margin-left: 25px;
     display: inline-block;
     vertical-align: top;
+    
 }
 
 .slider-dots {
