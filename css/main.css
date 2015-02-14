@@ -150,7 +150,6 @@ child1:hover {
 .slide-1{
     background-image: url('danWedding.jpg');
     background-size: cover;
-    /*background-position: center;*/
     left: 0;
     width: 100%;
     height: 100%;
@@ -162,7 +161,7 @@ child1:hover {
 .slide1Hover{
     color: #ffffff;
     float: right;
-    height: 675px;
+    height: 625px;
     width: 20%;
     padding-left: 50px;
     padding-right: 50px;
@@ -189,7 +188,7 @@ child1:hover {
 .slide2Hover{
     color: #ffffff;
     float: right;
-    height: 675px;
+    height: 625px;
     width: 20%;
     padding-left: 50px;
     padding-right: 50px;
@@ -216,7 +215,7 @@ child1:hover {
 .slide3Hover{
     color: #ffffff;
     float: right;
-    height: 675px;
+    height: 625px;
     width: 20%;
     padding-left: 50px;
     padding-right: 50px;
@@ -243,7 +242,7 @@ child1:hover {
 .slide4Hover{
     color: #ffffff;
     float: right;
-    height: 675px;
+    height: 625px;
     width: 20%;
     padding-left: 50px;
     padding-right: 50px;
