@@ -162,9 +162,9 @@ child1:hover {
     color: #ffffff;
     float: right;
     height: 625px;
-    width: 20%;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: url(subtitleBackground.png);
     background-repeat: repeat;
     
@@ -189,9 +189,9 @@ child1:hover {
     color: #ffffff;
     float: right;
     height: 625px;
-    width: 20%;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: url(subtitleBackground.png);
     background-repeat: repeat;
     
@@ -216,9 +216,9 @@ child1:hover {
     color: #ffffff;
     float: right;
     height: 625px;
-    width: 20%;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: url(subtitleBackground.png);
     background-repeat: repeat;
     
@@ -243,9 +243,9 @@ child1:hover {
     color: #ffffff;
     float: right;
     height: 625px;
-    width: 20%;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
     background-image: url(subtitleBackground.png);
     background-repeat: repeat;
     
@@ -263,11 +263,11 @@ child1:hover {
     background-repeat: repeat;
     position: absolute;
     z-index: 9999;
-    width: 20%;
+    width: 25%;
     height: 75px;
     right: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .slider-nav {
     text-align: center;
