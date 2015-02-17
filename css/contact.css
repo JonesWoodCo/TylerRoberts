@@ -350,6 +350,7 @@ child1:hover {
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		background-color: #ebebeb;
 	}
 
 		input[type="text"]:invalid,
@@ -366,6 +367,7 @@ child1:hover {
 		select:focus,
 		textarea:focus {
 			border-color: #d7ebff;
+			
 		}
 
 	.select-wrapper {
