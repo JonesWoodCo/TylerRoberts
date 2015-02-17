@@ -5,12 +5,15 @@
 body{
     margin: 0px;
     color: #000000;
-    font-family: 'Corben', cursive;
     text-decoration: none;
 }
 
 a{
     text-decoration: none;
+    font-family: 'Corben', cursive;
+}
+p{
+    font-family: 'Corben', cursive;
 }
 
 
