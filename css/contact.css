@@ -145,16 +145,20 @@ child1:hover {
 
 
 
+/*contact content*/
 
-
-
+.contactPara{
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
 
 
 
 /*this is the message form*/
 .messageBody{ 
   display: inline-block;
-  width: 90%;
+  width: 100%;
   height: 500px;
   position: absolute;
   z-index: 9999;
