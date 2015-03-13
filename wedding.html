@@ -6,15 +6,15 @@
     <link href='http://fonts.googleapis.com/css?family=Corben:400,700' rel='stylesheet' type='text/css'>
     
     <!--CSS style sheets -->
-   <link href="css/message.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css"/>
     	
     <!--JavaScript/ JQuery files -->
     <script type='text/javascript' src='script/jquery.js'></script>
     <script type='text/javascript' src='script/jquery-ui.js'></script>
+    <script type='text/javascript' src='script/imagelightbox.js'></script>
     <script type='text/javascript' src='script/slideSubtitle.js'></script>
-    <script type='text/javascript' src='script/indexSlides.js'></script>
-    <script type='text/javascript' src='script/messageJS.js'></script>
+    <script type='text/javascript' src='script/imgEnlarge.js'></script>
+    
     
     <!--favicon img-->
     <link rel="icon" type="image/png" href="#">
@@ -57,58 +57,65 @@
       width: 19.9%;
       margin-right: 0.1%;
       float: left;
-      margin-top: 95px;
+      margin-top: 125px;
       margin-bottom: 50px;
       padding: 0px;
       border: 0px;
      }
-     .column>img{
+     .column>a>img{
       width: 100%;
       padding: 0px;
       margin:0px;
      }
-     .column>img:hover{
+     .column>a>img:hover{
       opacity: 0.6;
      }
-    
+   
+     #imagelightbox{
+        position: fixed;
+        z-index: 9999;
+        box-shadow: 0px 10px 60px #000000;
+        -ms-touch-action: none;
+        touch-action: none;
+
+}
     </style>
     
      <div class="columnOne column">
-      <img src="css/danWedding.jpg">
-      <img src="css/familyPortait.jpg">
-       <img src="css/dodge.jpg">
-	<img src="img/dress.jpg">
+        <a href='css/familyPortait.jpg' class='enlarge'><img src="css/familyPortait.jpg"></a>
+            <a href='css/danWedding.jpg' class='enlarge'><img src="css/danWedding.jpg"></a>
+            <a href='css/familyPortait.jpg' class='enlarge'><img src="css/familyPortait.jpg"></a>
+            <a href='css/dodge.jpg' class='enlarge'><img src="css/dodge.jpg"></a>
+            <a href='css/dress.jpg' id='enlarge'><img src="img/dress.jpg"></a>
      </div>
      
      <div class="columnTwo column">
-      <img src="img/dress.jpg">
-      <img src="css/danWedding.jpg">
-      <img src="css/familyPortait.jpg">
-       <img src="css/dodge.jpg">
+         <a href='css/dress.jpg' id='enlarge'><img src="img/dress.jpg"></a>
+        <a href='css/danWedding.jpg' id='enlarge'><img src="css/danWedding.jpg"></a>
+        <a href='css/familyPortrait.jpg' id='enlarge'><img src="css/familyPortait.jpg"></a>
+        <a href='css/dodge.jpg' id='enlarge'><img src="css/dodge.jpg"></a>
      </div>
      
      <div class="columnThree column">
-       <img src="css/dodge.jpg">
-      <img src="css/danWedding.jpg">
-       <img src="img/frontman.jpg">
-      <img src="css/familyPortait.jpg">
-       
+        <a href='css/dodge.jpg' id='enlarge'><img src="css/dodge.jpg"></a>
+        <a href='css/danWedding.jpg' id='enlarge'><img src="css/danWedding.jpg"></a>
+        <a href='img/frontman.jpg' id='enlarge'><img src="img/frontman.jpg"></a>
+        <a href='img/drummer.jpg' id='enlarge'><img src="img/drummer.jpg"></a>
      </div>
      
      <div class="columnFour column">
-      <img src="css/dodge.jpg">
-      <img src="css/danWedding.jpg">
-      <img src="css/familyPortait.jpg">
-       <img src="css/dodge.jpg">
-	<img src="img/drummer.jpg">
+        <a href='img/drummer.jpg' id='enlarge'><img src="img/drummer.jpg"></a>
+        <a href='img/frontman.jpg' id='enlarge'><img src="img/frontman.jpg"></a>
+        <a href='css/dodge.jpg' id='enlarge'><img src="css/dodge.jpg"></a>
+	<a href='css/dodge.jpg' id='enlarge'><img src="css/dodge.jpg"></a>
      </div>
      
      <div class="columnFive column">
-      <img src="css/dodge.jpg">
-       <img src="img/drummer.jpg">
-      <img src="css/danWedding.jpg">
-      <img src="css/familyPortait.jpg">
-       <img src="css/dodge.jpg">
+        <a href='css/dodge.jpg' id='enlarge'><img src="css/dodge.jpg"></a>
+        <a href='img/drummer.jpg' id='enlarge'><img src="img/drummer.jpg"></a>
+        <a href='css/danWedding.jpg' id='enlarge'><img src="css/danWedding.jpg"></a>
+        <a href='css/familyPortrait.jpg' id='enlarge'><img src="css/familyPortait.jpg"></a>
+        <a href='css/dodge.jpg' id='enlarge'><img src="css/dodge.jpg"></a>
      </div>
      
 
