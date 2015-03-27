@@ -158,7 +158,9 @@ child1:hover {
 /*this is the message form*/
 .messageBody{ 
   display: inline-block;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   height: 500px;
   position: absolute;
   z-index: 9999;
@@ -181,6 +183,15 @@ child1:hover {
 .message{
   width: 100%;
   margin-top: 20px;
+}
+.sendMessage:hover{
+	background-color:  #05a1d4;
+	color: #ffffff;
+}
+.sendMessage{
+	margin-top: 20px;
+	background-color: black;
+	color: #fff;
 }
 /* Box Model */
 
@@ -380,7 +391,7 @@ child1:hover {
 			content: '\f078';
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: 'Droid Serif', serif;
+			font-family: 'Corben', cursive;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
