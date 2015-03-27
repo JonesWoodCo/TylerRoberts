@@ -48,7 +48,7 @@ p{
    
     margin: 0px;
     border: 0px;
-    padding-left: 25px;
+    
     position: absolute;
     top: 55px;
     background-color:#1f1f1f;
@@ -62,18 +62,21 @@ p{
     line-height: 30px;
     background-color: #1f1f1f;
     }
+
 .parent a{
-    margin: 30px;
+    margin-right: 60px;
     color: #FFFFFF;
     text-decoration: none;
-    }
+}
 .parent:hover > ul {
     display:block;
     position:absolute;
-    }
+}
 .child1 {
     display: none;
-    }
+    background-color: #1f1f1f;
+    text-align: center;
+}
 .child1 li {
     background-color: #1f1f1f;
     line-height: 30px;
@@ -81,18 +84,11 @@ p{
     }
 .child1 li a{
     color: #ffffff;
-    
-    }
-    .child2 {
-    display: none;
-    }
-.child2 li {
-    background-color: #1f1f1f;
-    line-height: 30px;
-    width:60px;
-    }
-.child2 li a{
-    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
     }
 ul{
     list-style: none;
@@ -117,8 +113,19 @@ child1:hover {
     margin-right:5px;
     }
 
-
-
+.homeLink:visited{
+    color: #fff;
+}
+.homeLink{
+    margin-left: 10%;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: #1f1f1f;
+}
 
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
