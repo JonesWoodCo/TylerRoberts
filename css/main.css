@@ -27,14 +27,14 @@ p{
     margin-right: 50px;
     position: absolute;
     top: 2px;
-    left: 50px;
+    left: 10%;
 }
 .phoneNumber{
     float: right;
     margin-left: 50px;
     position: absolute;
     top: 13px;
-    right: 50px;
+    right: 10%;
   
 }
 
