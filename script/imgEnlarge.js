@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $(".column a").imageLightbox({});
+    $(".column, .enlarge").imageLightbox({});
     });
