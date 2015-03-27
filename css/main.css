@@ -35,9 +35,15 @@ p{
     float: right;
     margin-left: 50px;
     position: absolute;
-    top: 13px;
+    top: 7px;
     right: 10%;
-  
+}
+.location{
+     float: right;
+    margin-left: 50px;
+    position: absolute;
+    top: 30px;
+    right: 10%;
 }
 
 
